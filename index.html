@@ -47,65 +47,74 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 					
           <tr onmouseout="wave_stop()" onmouseover="wave_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
+            <!-- <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id=''>
-                  <img src='' width="160"></div>
-                <img src='' width="160">
-              </div>
+                <div class="two" id='wave_image'>
+                  <img src='images/waveface_thumbup.png' width="160"></div>
+                <img src='images/waveface_thumbup.jpg' width="160">
+                </div>
               <script type="text/javascript">
                 function wave_start() {
-                  document.getElementById('').style.opacity = "1";
+                  document.getElementById('wave_image').style.opacity = "1";
                 }
 
                 function wave_stop() {
-                  document.getElementById('').style.opacity = "0";
+                  document.getElementById('wave_image').style.opacity = "0";
                 }
                 wave_stop()
               </script>
+            </td> -->
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/waveface_thumbup.png" alt="clean-usnob" width="160">
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="">
                 <papertitle>WaveFace: Authentic Face Restoration with Efficient Frequency Recovery</papertitle>
               </a>
               <br>
-              Yunqi Miao, 
+              <b>Yunqi Miao</b>, 
               <a href="https://jiankangdeng.github.io/">Jiankang Deng</a>, 
               <a href="https://jungonghan.github.io/">Jungong Han</a> 
               <br>
               <em>CVPR</em>, 2024
               <br>
               <a href="https://yoqim.github.io/waveface_page">Project page</a>,
-              <a href="https://arxiv.org/abs/2403.12760">arXiv</a>
+              <a href="https://arxiv.org/abs/2403.12760">arXiv</a>,
+              <a href="https://github.com/yoqim/waveface.git">Code</a>
             </td>
           </tr>
 
-
-          <tr onmouseout="physical_stop()" onmouseover="physical_start()">
+          <tr onmouseout="ureid_stop()" onmouseover="ureid_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id=''>
-                  <img src='' width="160"></div>
-                <img src='' width="160">
-              </div>
-              <script type="text/javascript">
-                function physical_start() {
-                  document.getElementById('').style.opacity = "1";
-                }
-
-                function physical_stop() {
-                  document.getElementById('').style.opacity = "0";
-                }
-                physical_stop()
-              </script>
+              <img src="images/ureid_tmup.png" alt="clean-usnob" width="160">
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="">
-                <papertitle>Physically-Based Face Rendering
-                  for NIR-VIS Face Recognition</papertitle>
+                <papertitle>Confidence-guided Centroids for Unsupervised Person Re-Identification</papertitle>
               </a>
               <br>
-              Yunqi Miao*, 
+              <b>Yunqi Miao</b>, 
+              <a href="https://jiankangdeng.github.io/">Jiankang Deng</a>,
+              Guiguang Ding,
+              <a href="https://jungonghan.github.io/">Jungong Han</a> 
+              <br>
+              <em>IEEE Transactions on Information Forensics and Security (TIFS)</em>, 2024
+              <br>
+              <a href="https://arxiv.org/pdf/2211.11921">arXiv</a>, 
+              <a href="">Code</a>
+            </td>
+          </tr>
+
+          <tr onmouseout="physical_stop()" onmouseover="physical_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/neurips22_0.png" alt="clean-usnob" width="160">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="">
+                <papertitle>Physically-Based Face Rendering for NIR-VIS Face Recognition</papertitle>
+              </a>
+              <br>
+              <b>Yunqi Miao</b>*, 
               <a href="https://alexlattas.com/">Alexandros Lattas*</a>, 
               <a href="https://jiankangdeng.github.io/">Jiankang Deng</a>, 
               <a href="https://jungonghan.github.io/">Jungong Han</a>, 
@@ -113,8 +122,9 @@
               <br>
               <em>NeurIPS</em>, 2022
               <br>
+              <a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/8f182e220092f7f1fc44f3313023f5a0-Paper-Conference.pdf">Paper</a>,
               <a href="https://arxiv.org/pdf/2211.06408.pdf">arXiv</a>,
-              <a href="https://github.com/yoqim/PR-HFR">code</a>
+              <a href="https://github.com/yoqim/PR-HFR">Code</a>
             </td>
           </tr>		
 
@@ -142,7 +152,7 @@
           </a> <br>
           Nianchang Huang,
           Jianan Liu,
-          Yunqi Miao,
+          <b>Yunqi Miao</b>,
           Qiang Zhang,
           <a href="https://jungonghan.github.io/">Jungong Han</a>
           <br>
@@ -154,98 +164,58 @@
 
           <tr onmouseout="pat_stop()" onmouseover="pat_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
-            <div class="one">
-            <div class="two" id=''>
-              <img src='' width="160"></div>
-            <img src='' width="160">
-            </div>
-            <script type="text/javascript">
-            function pat_start() {
-              document.getElementById('').style.opacity = "1";
-            }
-  
-            function pat_stop() {
-              document.getElementById('').style.opacity = "0";
-            }
-            pat_stop()
-            </script>
+              <img src="images/on_exploring_tmup.png" alt="clean-usnob" width="160">
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
             <a href="">
             <papertitle>On Exploring Pose Estimation as an Auxiliary Learning Task for Visible-Infrared Person Re-identification</papertitle>
             </a> <br>
-            Yunqi Miao,
+            <b>Yunqi Miao</b>,
             Nianchang Huang,
             <a href="https://www.ntu.ac.uk/staff-profiles/business/xiao-ma">Xiao Ma</a>,
             Qiang Zhang,
             <a href="https://jungonghan.github.io/">Jungong Han</a>
             <br>
-            <!-- <em></em>, 2022 -->
+            <em>Neurocomputing</em>, 2023
             <br>
-            <a href="https://arxiv.org/pdf/2201.03859.pdf">arxiv</a>
+            <a href="https://dl.acm.org/doi/abs/10.1016/j.neucom.2023.126652">Paper</a>
+            <a href="https://arxiv.org/pdf/2201.03859.pdf">arxiv</a>,
+            <a href="https://github.com/yoqim/Pose_VIReID">Code</a>
             </td>
           </tr> 
           
           <tr onmouseout="bin_stop()" onmouseover="bin_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
-            <div class="one">
-            <div class="two" id=''>
-              <img src='' width="160"></div>
-            <img src='' width="160">
-            </div>
-            <script type="text/javascript">
-            function bin_start() {
-              document.getElementById('').style.opacity = "1";
-            }
-  
-            function bin_stop() {
-              document.getElementById('').style.opacity = "0";
-            }
-            bin_stop()
-            </script>
+              <img src="images/tip_tmup.png" alt="clean-usnob" width="160">
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
             <a href="">
             <papertitle>Learning Transformation-Invariant Local Descriptors With Low-Coupling Binary Codes</papertitle>
             </a> <br>
-            Yunqi Miao,
+            <b>Yunqi Miao</b>,
             <a href="https://scholar.google.com/citations?user=ghUYrHkAAAAJ&hl=en">Zijia Lin</a>,
             <a href="https://www.ntu.ac.uk/staff-profiles/business/xiao-ma">Xiao Ma</a>,
             <a href="https://scholar.google.com/citations?user=B7F3yt4AAAAJ&hl=en">Guiguang Ding</a>,
             <a href="https://jungonghan.github.io/">Jungong Han</a>
             <br>
-            <em>TIP</em>, 2021
+            <em>IEEE Transactions on Image Processing (TIP)</em>, 2021
             <br>
             <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9524433">paper</a>,
-            <a href="https://github.com/yoqim/TBLD">code
+            <a href="https://github.com/yoqim/TBLD">Code
             </td>
           </tr> 
 
           <tr onmouseout="sfn_stop()" onmouseover="sfn_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
-            <div class="one">
-            <div class="two" id=''>
-              <img src='' width="160"></div>
-            <img src='' width="160">
-            </div>
-            <script type="text/javascript">
-            function sfn_start() {
-              document.getElementById('').style.opacity = "1";
-            }
-  
-            function sfn_stop() {
-              document.getElementById('').style.opacity = "0";
-            }
-            sfn_stop()
-            </script>
+              <img src="images/aaai_tmup.png" alt="clean-usnob" width="160">
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
             <a href="">
             <papertitle>Shallow Feature Based Dense Attention Network for Crowd Counting</papertitle>
             </a> <br>
-            Yunqi Miao,
+            <b>Yunqi Miao</b>,
             <a href="https://scholar.google.com/citations?user=ghUYrHkAAAAJ&hl=en">Zijia Lin</a>,
-            <a href="https://scholar.google.com/citations?user=B7F3yt4AAAAJ&hl=en">Guiguang Ding</a>,
+            <a href="">Guiguang Ding</a>,
             <a href="https://jungonghan.github.io/">Jungong Han</a>
             <br>
             <em>AAAI</em>, 2020
@@ -276,7 +246,7 @@
             <a href="">
             <papertitle>ST-CNN: Spatial-Temporal Convolutional Neural Network for crowd counting in videos</papertitle>
             </a> <br>
-            Yunqi Miao,
+            <b>Yunqi Miao</b>,
             <a href="https://jungonghan.github.io/">Jungong Han</a>,
             Yongsheng Gao,
             <a href="https://scholar.google.co.uk/citations?user=ImJz6MsAAAAJ&hl=en">Baochang Zhang</a>
@@ -286,7 +256,39 @@
             <a href="https://www.sciencedirect.com/science/article/abs/pii/S0167865518307463">paper</a>
             </td>
           </tr> 
-          
+
+  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+    <tr>
+      <td>
+        <heading>Misc</heading>
+      </td>
+    </tr>
+  </tbody></table>
+  <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+    <tr>
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <img src="images/palette-solid.svg" alt="SVG Image" width="160" height="160">
+      </td>
+      <td width="75%" valign="center">
+        <a href="">Reviewer for CVPR, NeurIPS, AAAI, TIP, <etc class=""></etc></a>
+      </td>
+    </tr>
+
+
+  </tbody></table>
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr>
+      <td style="padding:0px">
+        <br>
+        <p style="text-align:middle;font-size:small;">
+          This cool template is stolen from <a href="https://jonbarron.info/">Jon Barron</a>!
+        </p>
+      </td>
+    </tr>
+  </tbody></table>
+
+
+
         </tbody></table>
       </td>
     </tr>
